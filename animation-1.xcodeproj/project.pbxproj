@@ -13,6 +13,7 @@
 		6303CD921B4176D70011E503 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6303CD911B4176D70011E503 /* Images.xcassets */; };
 		6303CD951B4176D70011E503 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6303CD931B4176D70011E503 /* LaunchScreen.xib */; };
 		6303CDA11B4176D70011E503 /* animation_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6303CDA01B4176D70011E503 /* animation_1Tests.swift */; };
+		6303CDAB1B4179DC0011E503 /* PositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6303CDAA1B4179DC0011E503 /* PositionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		6303CD9A1B4176D70011E503 /* animation-1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "animation-1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6303CD9F1B4176D70011E503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6303CDA01B4176D70011E503 /* animation_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animation_1Tests.swift; sourceTree = "<group>"; };
+		6303CDAA1B4179DC0011E503 /* PositionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				6303CD8A1B4176D70011E503 /* AppDelegate.swift */,
 				6303CD8C1B4176D70011E503 /* ViewController.swift */,
+				6303CDAA1B4179DC0011E503 /* PositionViewController.swift */,
 				6303CD8E1B4176D70011E503 /* Main.storyboard */,
 				6303CD911B4176D70011E503 /* Images.xcassets */,
 				6303CD931B4176D70011E503 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6303CDAB1B4179DC0011E503 /* PositionViewController.swift in Sources */,
 				6303CD8D1B4176D70011E503 /* ViewController.swift in Sources */,
 				6303CD8B1B4176D70011E503 /* AppDelegate.swift in Sources */,
 			);
